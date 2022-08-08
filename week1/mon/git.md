@@ -10,7 +10,7 @@ management in software development.
 - It allows multiple developers to work together
 - It supports non-linear development through its thousands of parallel branches
 
----
+<br>
 
 ## Features of Git
 
@@ -27,7 +27,7 @@ Features of Git
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/business-org.JPG">
 
----
+<br>
 
 ## Branch
 
@@ -41,7 +41,7 @@ The diagram above visualizes a repository with two isolated lines of development
 a longer-running feature. By developing them in branches, it’s not only possible to work on both of them in parallel,
 but it also keeps the main branch free from questionable code.
 
----
+<br>
 
 ## Main Commands For GIT
 

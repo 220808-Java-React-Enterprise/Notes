@@ -49,6 +49,9 @@ but it also keeps the main branch free from questionable code.
 
 - `git clone <url>`
 
+<br>
+
+
 ### Creating a Branch
 
 To know what branch you are currently in
@@ -62,6 +65,8 @@ To create a branch
 To switch between branches
 
 - `git checkout <existing branch name>`
+
+<br>
 
 ### Pushing To GitHub Repository
 
@@ -82,6 +87,8 @@ that is associated with a unique identifier.
 The git push command is used to upload local repository content to a remote repository.
 
 - `git push origin <branch name>`
+
+<br>
 
 ### Pulling from GitHub Repository
 

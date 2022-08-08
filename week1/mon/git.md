@@ -49,6 +49,20 @@ but it also keeps the main branch free from questionable code.
 
 - `git clone <url>`
 
+### Creating a Branch
+
+To know what branch you are currently in
+
+- `git branch`
+
+To create a branch
+
+- `git checkout -b <branch name>`
+
+To switch between branches
+
+- `git checkout <existing branch name>`
+
 ### Pushing To GitHub Repository
 
 The git status command displays the state of the working directory and the staging area. It lets you see which changes
@@ -69,16 +83,22 @@ The git push command is used to upload local repository content to a remote repo
 
 - `git push origin <branch name>`
 
-### Creating a Branch
+### Pulling from GitHub Repository
 
-To know what branch you are currently in
+The git status command displays the state of the working directory and the staging area. It lets you see which changes
+have been staged, which haven't, and which files aren't being tracked by Git.
 
-- `git branch`
+- `git status`
 
-To create a branch
+git add to stage the file
 
-- `git checkout -b <branch name>`
+- `git add -A`
 
-To switch between branches
+git commit takes everything from the staging area and makes a permanent snapshot of the current state of your repository
+that is associated with a unique identifier.
 
-- `git checkout <existing branch name>`
+- `git commit -m "YOUR MESSAGE"`
+
+The git push command is used to upload local repository content to a remote repository.
+
+- `git pull origin <branch name>`

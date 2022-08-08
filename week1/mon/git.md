@@ -10,7 +10,7 @@ management in software development.
 - It allows multiple developers to work together
 - It supports non-linear development through its thousands of parallel branches
 
----
+<br>
 
 ## Features of Git
 
@@ -27,7 +27,7 @@ Features of Git
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/business-org.JPG">
 
----
+<br>
 
 ## Branch
 
@@ -41,13 +41,32 @@ The diagram above visualizes a repository with two isolated lines of development
 a longer-running feature. By developing them in branches, it’s not only possible to work on both of them in parallel,
 but it also keeps the main branch free from questionable code.
 
----
+<br>
 
 ## Main Commands For GIT
 
 ### Cloning GitHub Repository
 
 - `git clone <url>`
+
+<br>
+
+
+### Creating a Branch
+
+To know what branch you are currently in
+
+- `git branch`
+
+To create a branch
+
+- `git checkout -b <branch name>`
+
+To switch between branches
+
+- `git checkout <existing branch name>`
+
+<br>
 
 ### Pushing To GitHub Repository
 
@@ -69,16 +88,24 @@ The git push command is used to upload local repository content to a remote repo
 
 - `git push origin <branch name>`
 
-### Creating a Branch
+<br>
 
-To know what branch you are currently in
+### Pulling from GitHub Repository
 
-- `git branch`
+The git status command displays the state of the working directory and the staging area. It lets you see which changes
+have been staged, which haven't, and which files aren't being tracked by Git.
 
-To create a branch
+- `git status`
 
-- `git checkout -b <branch name>`
+git add to stage the file
 
-To switch between branches
+- `git add -A`
 
-- `git checkout <existing branch name>`
+git commit takes everything from the staging area and makes a permanent snapshot of the current state of your repository
+that is associated with a unique identifier.
+
+- `git commit -m "YOUR MESSAGE"`
+
+The git push command is used to upload local repository content to a remote repository.
+
+- `git pull origin <branch name>`

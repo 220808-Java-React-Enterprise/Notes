@@ -10,5 +10,20 @@ public class Main {
         /*
          * System out the Associate object behaviors and fields
          */
+
+        Associate mahmoud = new Associate();
+       mahmoud.setName("Mahmoud Osman");
+       mahmoud.setDegree("BS Degree");
+       mahmoud.setPOI("Turkey");
+        System.out.println(mahmoud);
+
+
+// System.out.println(  mahmoud.toString());
+        System.out.println();
+        mahmoud.aboutMe();
+        mahmoud.talent();
+        System.out.println();
+        mahmoud.education();
+
     }
 }

@@ -10,5 +10,7 @@ public class Main {
         /*
          * System out the Associate object behaviors and fields
          */
+        Associate jon=new Associate("Jon","Information Technology","Japan");
+        jon.toString();
     }
 }

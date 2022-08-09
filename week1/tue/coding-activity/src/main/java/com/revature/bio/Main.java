@@ -10,5 +10,11 @@ public class Main {
         /*
          * System out the Associate object behaviors and fields
          */
+
+        Associate a = new Associate("John", "BS", "Las Vegas");
+
+        System.out.println("Name: " + a.getName());
+        System.out.println("Degree: " + a.getDegree());
+        System.out.println("POI: " + a.getPoi());
     }
 }

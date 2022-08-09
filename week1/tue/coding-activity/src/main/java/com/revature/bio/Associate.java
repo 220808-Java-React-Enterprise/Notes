@@ -6,7 +6,7 @@ import com.sun.xml.internal.ws.policy.spi.AssertionCreationException;
 
 /*
  * Fill in this Associate class skeleton
- * Remember, all fields and methods needs to be private!
+ * Remember, all fields needs to be private!
  */
 public class Associate {
     /*

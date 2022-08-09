@@ -19,8 +19,18 @@
 
 
 - 12:00 PM ET
-  - Lecture:
+  - **Lecture**:
     - Introduction to Java
+  - **Demo**:
+    - Creating Main class
+      - printing out "Hello world!"
+    - Data types
+    - Control flow statements:
+      - if/else-if/else
+      - for loops-enhanced for loops
+    - Classes:
+      - Creating & instantiating
+      - Attributes & methods
 
 
 - 1:00 or 2:00 PM ET

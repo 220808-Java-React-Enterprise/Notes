@@ -42,4 +42,7 @@
 
 ### Homework
 
-- TBH
+- **MUST KNOW BY TOMORROW (I will call on you to verify this concept)**:
+  - if/else-if/else
+  - for loop (index based)
+  - coding-activity

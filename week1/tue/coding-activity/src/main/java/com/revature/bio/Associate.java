@@ -58,4 +58,16 @@ public class Associate {
                 ", POI='" + POI + '\'' +
                 '}';
     }
+
+    public String aboutMe(){
+        /*
+        System.out.println("My name is: " + name + ". " + "I have " + degree + " degree. "
+        + "And my point of interest is " + POI);
+         */
+        return "My name is " + name + ". " + "I have " + degree + " degree. " + "And my point of interest is " + POI + ".";
+    }
+
+    public String talent(){
+        return "My talents include coding, debugging and testing applications.";
+    }
 }

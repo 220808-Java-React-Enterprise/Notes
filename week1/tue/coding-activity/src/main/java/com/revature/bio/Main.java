@@ -10,9 +10,15 @@ public class Main {
         /*
          * System out the Associate object behaviors and fields
          */
-        Associate associate = new Associate();
-        associate.setName("Thomas");
+        Associate associate = new Associate("Thomas Guwor", "MBA", "Greece");
+        //associate.setName("Thomas");
 
-        System.out.println(associate.name);
+        System.out.println("Associate Name: " + associate.getName());
+        System.out.println("Associate Degree: " + associate.getDegree());
+        System.out.println("Associate Place of Interest: " + associate.getPOI() + "\n");
+
+        System.out.println(associate.aboutMe());
+
+        System.out.println(associate.talent());
     }
 }

@@ -10,5 +10,9 @@ public class Main {
         /*
          * System out the Associate object behaviors and fields
          */
+        Associate associate = new Associate();
+        associate.setName("Thomas");
+
+        System.out.println(associate.name);
     }
 }

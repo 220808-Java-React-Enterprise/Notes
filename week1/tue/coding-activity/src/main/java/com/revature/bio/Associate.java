@@ -11,15 +11,16 @@ public class Associate {
     /*
      * Initialize fields: name, degree, POI (place of interest)
      */
-    private String name = "Daniel Mulligan";
-    private String degree = "Psychology";
-    private String POI = "Ireland";
+    private String name;
+    private String degree;
+    private String POI;
     private ArrayList<String> favoriteGames = new ArrayList<>();
 
     /* Constructor*/
 
     public Associate()
     {
+
     }
 
     public Associate(String name, String degree, String POI)
@@ -33,16 +34,29 @@ public class Associate {
      * Create some standard associate behaviors AKA methods (i.e. about me, talent, etc)
      */
 
+    /*
+    Getters
+    */
     public String getName()
     {
         return name;
     }
-
     public ArrayList<String> getFavoriteGames()
     {
         return favoriteGames;
     }
+    public String getDegree()
+    {
+        return degree;
+    }
+    public String getPOI()
+    {
+        return POI;
+    }
 
+    /*
+    Setters
+    */
     public void addFavoriteGames(String favoriteGame)
     {
         this.favoriteGames.add(favoriteGame);
@@ -53,32 +67,27 @@ public class Associate {
         this.name = name;
     }
 
-    public String getDegree()
-    {
-        return degree;
-    }
-
     public void setDegree(String degree)
     {
         this.degree = degree;
-    }
-
-    public String getPOI()
-    {
-        return POI;
     }
 
     public void setPOI(String POI)
     {
         this.POI = POI;
     }
-
+    /*
+    toString Override
+     */
     @Override
     public String toString()
     {
         return "Hello, I'm " + this.name + " and I graduated with a degree in " + this.degree + "." +
                 "\nI'd really like to go to " + this.POI + "!";
     }
+    /*
+    imposterSyndrome.get()
+     */
     public String myTalent(boolean Sleeping)
     {
         if (Sleeping == true)
@@ -90,6 +99,9 @@ public class Associate {
             return "I'm a very good listener!";
         }
     }
+    /*
+    Loop to print out fav games
+     */
     public void favoriteGames()
     {
         if (this.favoriteGames.size() == 0)

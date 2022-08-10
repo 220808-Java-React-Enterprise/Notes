@@ -15,6 +15,7 @@ public class Associate {
     /*
      * Create some standard associate behaviors AKA methods (i.e. about me, talent, etc)
      */
+
     public Associate()
     {
     }
@@ -25,6 +26,7 @@ public class Associate {
         degree=profession;
         POI=place;
     }
+    //SETTERS//
     public void setName(String name) {
         this.name = name;
     }
@@ -36,10 +38,10 @@ public class Associate {
     public void setPOI(String POI) {
         this.POI = POI;
     }
-
-    public void getName()
+    //GETTERS//
+    public String getName()
     {
-        system.out.println(name);
+        return name;
     }
 
     public String getDegree() {
@@ -49,31 +51,33 @@ public class Associate {
     public String getPOI() {
         return POI;
     }
-
+    //Behaivors//
     public void toWalk()
     {
-        System.out.println(this.name + " is walking")
+        System.out.println(this.name + " is walking!");
     }
     public void isSleepy()
     {
-        System.out.println(this.name + " is starting to nod off")
+        System.out.println(this.name + " is starting to nod off!");
     }
 
     public void isReading()
     {
-        System.out.println(this.name + " is reading!")
+        System.out.println(this.name + " is reading!");
     }
-
+    //ToString//
     @Override
     public String toString() {
+        toWalk();
+        isSleepy();
+        isReading();
+
         return "Associate{" +
                 "name='" + name + '\'' +
                 ", degree='" + degree + '\'' +
                 ", POI='" + POI + '\'' +
                 '}';
 
-        toWalk();
-        isSleepy();
-        isReading();
+
     }
 }

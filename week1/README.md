@@ -46,3 +46,28 @@
   - if/else-if/else
   - for loop (index based)
   - coding-activity
+
+<br>
+
+## Wednesday
+
+- 10:10 AM ET
+  - Hackerrank
+
+
+- 9:30 AM ET
+  - **Lecture**:
+    - Exception (with demo)
+    - Introduction to P0
+
+
+- 1:00 PM ET
+  - Lunch
+
+
+- 2:00 PM ET
+  - Work on P0
+
+### Homework
+
+- TBD

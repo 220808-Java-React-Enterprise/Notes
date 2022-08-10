@@ -20,7 +20,7 @@ public class Associate {
      */
     public String getMyHobbies() {
         return "Some of my hobbies include: Hunting, Fishing, and Boating.";
-        
+
     }
     /* default constructor (construct objects) */
     /* overloading */

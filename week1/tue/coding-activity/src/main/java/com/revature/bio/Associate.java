@@ -1,5 +1,7 @@
 package com.revature.bio;
 
+import java.util.Arrays;
+
 /*
  * Fill in this Associate class skeleton
  * Remember, all fields and methods needs to be private!
@@ -16,14 +18,25 @@ public class Associate {
     private  String degree;
     private String POI;
 
+    private String[] hobbies;
+
     public Associate(){
 
     }
 
-    public Associate(String name, String degree, String POI){
+    public Associate(String name, String degree, String POI, String[] hobbies){
         this.name = name;
         this.degree = degree;
         this.POI = POI;
+        this.hobbies = hobbies;
+    }
+
+    public String[] getHobbies() {
+        return hobbies;
+    }
+
+    public void setHobbies(String[] hobbies) {
+        this.hobbies = hobbies;
     }
 
     public String getName() {
@@ -50,6 +63,17 @@ public class Associate {
         this.POI = POI;
     }
 
+    @Override
+    public String toString() {
+        return "Associate{" +
+                "name='" + name + '\'' +
+                ", degree='" + degree + '\'' +
+                ", POI='" + POI + '\'' +
+                ", hobbies=" + Arrays.toString(hobbies) +
+                '}';
+    }
+
+    /*
     @java.lang.Override
     public java.lang.String toString() {
         return "Associate{" +
@@ -58,6 +82,7 @@ public class Associate {
                 ", POI='" + POI + '\'' +
                 '}';
     }
+     */
 
     public String aboutMe(){
         /*
@@ -70,4 +95,24 @@ public class Associate {
     public String talent(){
         return "My talents include coding, debugging and testing applications.";
     }
+
+    /*
+    public boolean myHobbies(){
+        System.out.println("My hobbies include: ");
+        for (int i = 0; i < hobbies.length; i++){
+            System.out.println(hobbies[i]);
+        }
+        return false;
+    }
+     */
+
+    //method to associate hobbies
+    public String myHobbies(){
+        System.out.println("My hobbies include: ");
+        for (int i = 0; i < hobbies.length; i++){
+            System.out.println(hobbies[i]);
+        }
+        return "";
+    }
+
 }

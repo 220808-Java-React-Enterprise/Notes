@@ -18,5 +18,6 @@ public class Main {
         newAssociate.setPOI("Finland");
 
         System.out.println(newAssociate.aboutMe());
+        System.out.println(newAssociate.toString());
     }
 }

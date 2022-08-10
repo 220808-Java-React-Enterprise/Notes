@@ -51,4 +51,13 @@ public class Associate {
     public void setPOI(String POI) {
         this.POI = POI;
     }
+
+    @Override
+    public String toString() {
+        return "Associate{" +
+                "name='" + name + '\'' +
+                ", degree='" + degree + '\'' +
+                ", POI='" + POI + '\'' +
+                '}';
+    }
 }

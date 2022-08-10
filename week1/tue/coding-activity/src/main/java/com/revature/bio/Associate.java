@@ -10,7 +10,7 @@ public class Associate {
      */
     private String name;
     private String degree;
-    private  String POI;
+    private String POI;
 
     public Associate() {
     }
@@ -50,7 +50,6 @@ public class Associate {
      */
 
 
-
     @Override
     public String toString() {
         return "Associate{" +
@@ -62,26 +61,24 @@ public class Associate {
 
 
     //About me
-    public void  aboutMe(){
+    public void aboutMe() {
         System.out.println("About Me!");
         System.out.println("My name is Mahmoud osman. I live in MN. I have BS in Computer Science!");
 
     }
 
-//Talent
-    public  void  talent(){
+    //Talent
+    public void talent() {
         System.out.println("My Talent");
-        System.out.println( "1. HTML\n" + "2. CSS\n" + "3. Java\n"+ "4. JavaScript");
+        System.out.println("1. HTML\n" + "2. CSS\n" + "3. Java\n" + "4. JavaScript");
     }
 
 
-    public void education(){
+    public void education() {
         System.out.println("Education");
         System.out.println("1. Associate's Degree - Computer Systems Management.\n " +
                 "2. Bachelor's Degree - Computer Science ");
     }
-
-
 
 
 }

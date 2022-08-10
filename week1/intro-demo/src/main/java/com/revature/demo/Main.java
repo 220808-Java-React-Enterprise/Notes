@@ -20,7 +20,7 @@ public class Main {
         Dog myDog1 = new Dog(3, "Aegon");
         System.out.println(myDog1); // shortcut -> sout
 
-        User user =  new User("baoduong", "password");
+        User user = new User("baoduong", "password");
         user.setUsername("username");
         user.setPassword("password");
     }

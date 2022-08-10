@@ -12,9 +12,9 @@ public class Main {
          */
 
         Associate mahmoud = new Associate();
-       mahmoud.setName("Mahmoud Osman");
-       mahmoud.setDegree("BS Degree");
-       mahmoud.setPOI("Turkey");
+        mahmoud.setName("Mahmoud Osman");
+        mahmoud.setDegree("BS Degree");
+        mahmoud.setPOI("Turkey");
         System.out.println(mahmoud);
 
 

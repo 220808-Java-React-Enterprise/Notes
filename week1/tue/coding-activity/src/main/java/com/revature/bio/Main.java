@@ -8,7 +8,7 @@ public class Main {
          */
         Associate as = new Associate();
         as.setName("Nathan Gilbert");
-        as.setDegree("BS Computer Science");
+        as.setDegree("Computer Science");
         as.setPoi("Florida");
         as.setTalents(new String[]{"Programming", "Logic Design", "Language Arts"});
         as.setWeaknesses(new String[]{"Writing", "Public Speaking"});

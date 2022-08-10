@@ -29,7 +29,7 @@ public class Main {
 
         System.out.println(associate.aboutMe() + "\n");
 
-        System.out.println(associate.talent());
+        System.out.println(associate.talent() + "\n");
 
         //call for loop to get associate hobbies
         System.out.println(associate.myHobbies());

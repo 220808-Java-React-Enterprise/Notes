@@ -10,6 +10,8 @@ public class Main {
         as.setName("Nathan Gilbert");
         as.setDegree("BS Computer Science");
         as.setPoi("Florida");
+        as.setTalents(new String[]{"Programming", "Logic Design", "Language Arts"});
+        as.setWeaknesses(new String[]{"Writing", "Public Speaking"});
 
         /*
          * System out the Associate object behaviors and fields
@@ -17,6 +19,8 @@ public class Main {
         System.out.println("Name: " + as.getName());
         System.out.println("Degree: " + as.getDegree());
         System.out.println("POI: " + as.getPoi());
-        System.out.println(as.aboutMe());
+        System.out.print(as.aboutMe());
+        System.out.print(as.talents());
+        System.out.print(as.weaknesses());
     }
 }

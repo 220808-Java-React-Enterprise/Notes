@@ -15,11 +15,11 @@ public class Associate {
     /*
      * Create some standard associate behaviors AKA methods (i.e. about me, talent, etc)
      */
-    public Assciate()
+    public Associate()
     {
     }
 
-    public Associate{String called, String profession,String place}
+    public Associate(String called, String profession,String place)
     {
         name=called;
         degree=profession;
@@ -71,5 +71,9 @@ public class Associate {
                 ", degree='" + degree + '\'' +
                 ", POI='" + POI + '\'' +
                 '}';
+
+        toWalk();
+        isSleepy();
+        isReading();
     }
 }

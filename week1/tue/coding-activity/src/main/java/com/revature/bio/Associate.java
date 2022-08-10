@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /*
  * Fill in this Associate class skeleton
- * Remember, all fields and methods needs to be private!
+ * Remember, all fields needs to be private!
  */
 public class Associate {
     /*

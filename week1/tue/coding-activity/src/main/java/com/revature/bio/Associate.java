@@ -63,14 +63,15 @@ public class Associate {
     //About me
     public void aboutMe() {
         System.out.println("About Me!");
-        System.out.println("My name is Mahmoud osman. I live in MN. I have BS in Computer Science!");
+        System.out.println("My name is Mahmoud Osman. I live in MN.");
 
     }
 
     //Talent
     public void talent() {
         System.out.println("My Talent");
-        System.out.println("1. HTML\n" + "2. CSS\n" + "3. Java\n" + "4. JavaScript");
+        System.out.println("1. HTML\n" + "2. CSS\n"
+                + "3. Java\n" + "4. JavaScript" + "Angular\n" + "PHP\n");
     }
 
 

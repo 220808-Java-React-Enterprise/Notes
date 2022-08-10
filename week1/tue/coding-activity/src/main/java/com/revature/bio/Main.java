@@ -14,7 +14,7 @@ public class Main {
         Associate mahmoud = new Associate();
         mahmoud.setName("Mahmoud Osman");
         mahmoud.setDegree("BS Degree");
-        mahmoud.setPOI("Turkey");
+        mahmoud.setPOI("Mt Place of Interest is: Turkey");
         System.out.println(mahmoud);
 
 

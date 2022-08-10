@@ -28,6 +28,5 @@ public class JavaSwitch {
             default:
                 System.out.println("Looking forward to the weekdays");
         }
-
     }
 }

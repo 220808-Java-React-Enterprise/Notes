@@ -2,7 +2,11 @@ package com.revature.bio;
 
 /*
  * Fill in this Associate class skeleton
+<<<<<<< HEAD
  * Remember, all fields and methods needs to be public!
+=======
+ * Remember, all fields needs to be private!
+>>>>>>> b3aa9a1f61005c2a324d2e7f44ddcef7a18c9a49
  */
 public class Associate {
     /*

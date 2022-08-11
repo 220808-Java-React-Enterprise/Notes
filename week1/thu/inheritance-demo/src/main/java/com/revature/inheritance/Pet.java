@@ -12,29 +12,39 @@ package com.revature.inheritance;
 public abstract class Pet {
     /* Attributes */
     private String name;
+    private String owner;
     private String breed;
-    private String color;
+    private String size;
     private int age;
+    private double weight;
 
-    /* Constructors */
     public Pet() {
 
     }
 
-    public Pet(String name, String breed, String color, int age) {
+    public Pet(String name, String owner, String breed, String size, int age, double weight) {
         this.name = name;
+        this.owner = owner;
         this.breed = breed;
-        this.color = color;
+        this.size = size;
         this.age = age;
+        this.weight = weight;
     }
 
-    /* Getters and setters */
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
     }
 
     public String getBreed() {
@@ -45,12 +55,12 @@ public abstract class Pet {
         this.breed = breed;
     }
 
-    public String getColor() {
-        return color;
+    public String getSize() {
+        return size;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setSize(String size) {
+        this.size = size;
     }
 
     public int getAge() {
@@ -61,23 +71,29 @@ public abstract class Pet {
         this.age = age;
     }
 
-    /* Behaviors */
+    public double getWeight() {
+        return weight;
+    }
 
-    /* abstract method = no function body. Will need to override this method */
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
     public abstract void makeSound();
 
-    /* regular method = require function body */
-    public void whine() {
-        System.out.println(getName() + " is hungry!");
+    public void love() {
+        System.out.println(getName() + " loves you!");
     }
 
     @Override
     public String toString() {
         return "Pet{" +
                 "name='" + name + '\'' +
+                ", owner='" + owner + '\'' +
                 ", breed='" + breed + '\'' +
-                ", color='" + color + '\'' +
+                ", size='" + size + '\'' +
                 ", age=" + age +
+                ", weight=" + weight +
                 '}';
     }
 }

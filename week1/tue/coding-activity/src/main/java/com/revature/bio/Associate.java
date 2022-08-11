@@ -11,6 +11,15 @@ public class Associate {
     private String name;
     private String degree;
     private String POI;
+    private String talent;
+
+    public String getTalent() {
+        return talent;
+    }
+
+    public void setTalent(String talent) {
+        this.talent = talent;
+    }
 
     public Associate() {
     }
@@ -54,12 +63,13 @@ public class Associate {
                 "for about 10 years.  I wanted something different and more challenging.  " + degree + " was for sure it!\n" +
                 "I've enjoyed going back to school.  I enjoy going to the gym and running.  And I also love to cook and read.\n" +
                 "I would love to visit " + POI + " someday!\n" +
-                "I'm excited for this new adventure brought to me by Revature!";
+                "I'm excited for this new adventure brought to me by Revature!" +
+                "Fun fact, I have a great talent of: " + talent;
     }
 
     public String myDog(){
         return "I have a dog named Max.  He's the sweetest.  I've had him about 7 years.  He's a pitbull mix.\n" +
-                "He tried to eat other dogs so I have to be careful, but my little nieces and nephews climb all\n" +
-                "over him and he is so patient and sweet.  I couldn't ask for a better dog";
+                "He tries to eat other dogs so I have to be careful, but he's amazing with my little nieces and nephews, \n" +
+                "climb all over him and he is so patient and sweet.  I couldn't ask for a better dog";
     }
 }

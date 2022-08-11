@@ -70,4 +70,35 @@
 
 ### Homework
 
-- TBD
+- Theme for P0 (make it fun)
+- **Exception**:
+    - Exception hierarchy?
+    - Exceptions vs errors
+    - Checked vs unchecked exception
+    - How to handle exception?
+
+## Thursday
+
+- 10:10 AM ET
+  - coding challenge (preparing for Friday)
+
+
+- 9:30 AM ET
+  - **Lecture**:
+    - Abstract vs Interface (with demo)
+    - Implement login for P0
+
+
+- 1:00 PM ET
+  - Lunch
+
+
+- 2:00 PM ET
+  - Work on P0
+
+### Homework
+
+- **Abstract vs Interface:**
+  - When to use abstract class?
+  - When to use interface?
+  - What are some differences between the two?

@@ -31,7 +31,7 @@ public class Demo {
         } catch (NumberFormatException e) {
             System.out.println("NumberFormatException was thrown.");
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("AIOOOBE was thrown.");
+            System.out.println("AIOOBE was thrown.");
         }
     }
 }

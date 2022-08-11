@@ -2,7 +2,7 @@
 
 ## Monday (Introduction Day)
 
-<br>
+---
 
 ## Tuesday
 
@@ -47,7 +47,7 @@
   - for loop (index based)
   - coding-activity
 
-<br>
+---
 
 ## Wednesday
 
@@ -77,6 +77,8 @@
     - Checked vs unchecked exception
     - How to handle exception?
 
+---
+
 ## Thursday
 
 - 10:10 AM ET
@@ -95,6 +97,7 @@
 
 - 2:00 PM ET
   - Work on P0
+
 
 ### Homework
 

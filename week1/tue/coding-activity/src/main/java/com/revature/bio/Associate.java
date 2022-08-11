@@ -17,11 +17,39 @@ public class Associate {
     private String hobbyOne;
     private String hobbyTwo;
 
+
+    // constructors
+
+    public Associate() {
+
+    }
+
+    public Associate(String name, int age, String hometown, String favoriteFood, String degree, String major, String hobbyOne, String hobbyTwo) {
+        this.name = name;
+        this.age = age;
+        this.hometown = hometown;
+        this.favoriteFood = favoriteFood;
+        this.degree = degree;
+        this.major = major;
+        this.hobbyOne = hobbyOne;
+        this.hobbyTwo = hobbyTwo;
+
+
+    }
+
     /*
      * Create some standard associate behaviors AKA methods (i.e. about me, talent, etc)
      */
 
-    public Associate() {
+    public void aboutMe() {
+        System.out.println("Hello world! My name is " + name + "! I'm a developer from " + hometown);
+    }
+    public void myHobbies() {
+        System.out.println("My hobbies are " + hobbyOne + " and " + hobbyTwo);
+    }
+
+    public void myDegree() {
+        System.out.println("I have a " + degree + " degree in " + major);
     }
 
     // Getters and Setters

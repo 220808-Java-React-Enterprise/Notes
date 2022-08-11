@@ -6,18 +6,17 @@ public class Main {
          * Instantiate the Associate class
          * Pass in information to the default constructor or use setters
          */
-        Associate leighton = new Associate();
+        Associate leighton = new Associate("Leighton", 27, "Cleveland", "Sushi", "Bachelor's", "Neuroscience", "Cooking", "Video Games");
         /*
          * System out the Associate object behaviors and fields
          */
-        leighton.setName("Leighton");
-        leighton.setAge(27);
-        leighton.setFavoriteFood("Pizza");
-        leighton.setHometown("Cleveland");
-        leighton.setDegree("Neuroscience");
-        leighton.setHobbyOne("Video Games");
-        leighton.setHobbyTwo("Cooking");
+
+        leighton.aboutMe();
+        leighton.myDegree();
+        leighton.myHobbies();
 
         System.out.println(leighton);
+
+
     }
 }

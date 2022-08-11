@@ -1,6 +1,6 @@
 package com.revature.demo;
 
-public class Area {
+public class Area extends Object{
 
 
 }

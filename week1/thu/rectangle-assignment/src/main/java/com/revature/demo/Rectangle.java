@@ -1,29 +1,23 @@
 package com.revature.demo;
 
-public class Rectangles  extends Object{
+public class Rectangle  extends Object{
 
     private String name;
     private double length;
     private double width;
-    private double area;
 
-    private double perimeter;
 
-    public Rectangles(){
+    public Rectangle(){
 
     }
 
-    public Rectangles(String name, double length, double width, double area, double perimeter) {
+    public Rectangle(String name, double length, double width) {
         this.name = name;
         this.length = length;
         this.width = width;
-        this.area = area;
-        this.perimeter = perimeter;
-    }
-
-    public Rectangles(String s, double v, double v1) {
 
     }
+
 
     public String getName() {
         return name;
@@ -49,30 +43,21 @@ public class Rectangles  extends Object{
         this.width = width;
     }
 
-    public double getArea() {
-        return area;
+    public double getArea(){
+        return getLength()*getWidth();
     }
 
-    public void setArea(double area) {
-        this.area = area;
-    }
+    public double getPerimeter(){
 
-    public double getPerimeter() {
-        return perimeter;
-    }
-
-    public void setPerimeter(double perimeter) {
-        this.perimeter = perimeter;
+        return 2 * (getLength()+getWidth());
     }
 
     @Override
     public String toString() {
-        return "Rectangles{" +
+        return "Rectangle{" +
                 "name='" + name + '\'' +
                 ", length=" + length +
                 ", width=" + width +
-                ", area=" + area +
-                ", perimeter=" + perimeter +
                 '}';
     }
 }

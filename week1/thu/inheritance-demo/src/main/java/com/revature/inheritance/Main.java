@@ -1,18 +1,37 @@
 package com.revature.inheritance;
 
-public class Main {
+
+import java.util.*;
+
+public class Main{
     public static void main(String[] args) {
-        Dog myDog = new Dog("Aegon", "Bao", "Pitbull", "L", 3, 75.0);
-        Cat myCat = new Cat("Persi", "Max", "Persian", "S", 1, 9.0);
 
-        myDog.love();
-        myDog.makeSound();
+        List<Rectangle> rects = new ArrayList<Rectangle>();
+        Random random = new Random();
 
-        System.out.println();
+        for(int i = 0; i < 10; i++){
+            int length = random.nextInt(30-1) + 1;
+            int width = random.nextInt(30-1)+1;
+            rects.add(new Rectangle(String.valueOf(i),length,width));
+        }
 
-        myCat.makeSound();
-        myCat.love();
+        Rectangle largeArea = findMax(rects,new AreaComparator());
+        Rectangle largePerimeter = findMax(rects,new PerimeterComparator());
 
-        myDog.
+        System.out.println("Largest Area Rectangle: " + largeArea.toString());
+        System.out.println("Largest Perimeter Rectangle: " + largePerimeter.toString());
+
     }
+
+    public static Rectangle findMax(List<Rectangle> rectList, Comparator comp){
+        Rectangle Largest = rectList.get(0);
+        for(int i = 1; i < rectList.size();i++){
+            if(comp.isLessThan(Largest,rectList.get(i))){
+                Largest = rectList.get(i);
+            }
+        }
+        return Largest;
+    }
+
+
 }

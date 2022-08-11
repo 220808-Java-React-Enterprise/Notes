@@ -10,5 +10,13 @@ public class Main {
         /*
          * System out the Associate object behaviors and fields
          */
+        Associate chris = new Associate("Chris", "Computer Science", "a friendly post-scarcity society", "Mewtwo");
+        System.out.println(chris.tellAboutSelf("I can hold my breath for a long time."));
+
+        System.out.println(chris.getName() + "'s talent: " + chris.doTalent(40, 2));
+        Associate alex = new Associate("Alex", "Computer Science", "Japan");
+        System.out.println(alex.tellAboutSelf());
+
+        chris.chitChat(alex);
     }
 }

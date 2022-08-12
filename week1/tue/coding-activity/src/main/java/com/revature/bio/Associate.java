@@ -8,15 +8,20 @@ public class Associate {
     /*
      * Initialize fields: name, degree, POI (place of interest)
      */
-
     private String name;
     private String degree;
     private String poi;
 
     public Associate() {
-
+        this("unknown");
     }
 
+    public Associate(String name) {
+        this(name, "unknown");
+    }
+    public Associate(String name, String degree) {
+        this(name, degree, "unknown");
+    }
     public Associate(String name, String degree, String poi) {
         this.name = name;
         this.degree = degree;
@@ -52,6 +57,14 @@ public class Associate {
      * Create some standard associate behaviors AKA methods (i.e. about me, talent, etc)
      */
 
+    @Override
+    public String toString() {
+        return "Associate{" +
+                "name='" + name + '\'' +
+                ", degree='" + degree + '\'' +
+                ", poi='" + poi + '\'' +
+                '}';
+    }
 
     public String aboutMe() {
         return "Name: " + this.name + ", Education: " + this.degree + ", PIO: " + this.poi;

@@ -8,9 +8,9 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-       ArrayList<Rectangle> rectangles = new ArrayList<Rectangle>();
-      // Rectangle rectangle = new Rectangle();
-       rectangles.add(new Rectangle("r1", 10.0, 5.0));
+        ArrayList<Rectangle> rectangles = new ArrayList<Rectangle>();
+        // Rectangle rectangle = new Rectangle();
+        rectangles.add(new Rectangle("r1", 10.0, 5.0));
         rectangles.add(new Rectangle("r2", 20.0, 15.0));
         rectangles.add(new Rectangle("r3", 5.0, 2.0));
         rectangles.add(new Rectangle("r4", 40.0, 25.0));
@@ -21,16 +21,13 @@ public class Main {
         rectangles.add(new Rectangle("r9", 50.0, 30.0));
         rectangles.add(new Rectangle("r10", 18.0, 17.0));
 
-        for (int i = 0; i < rectangles.size(); i++){
+        for (int i = 0; i < rectangles.size(); i++) {
 
             System.out.println(rectangles.get(i));
         }
 
 
-
-        private static void findMax(){
-
-            
+        private static void findMax () {
 
 
         }
@@ -41,4 +38,5 @@ public class Main {
         System.out.println(r2);*/
 
     }
+}
 

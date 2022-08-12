@@ -1,6 +1,6 @@
 package com.revature.demo;
 
-public class Rectangle  extends Object{
+public class Rectangle {
 
     private String name;
     private double length;

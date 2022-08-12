@@ -9,5 +9,7 @@ package com.revature.inheritance;
  * Interface are really useful for code reuse-ability
  */
 public interface Animal {
+    public static final int n = 0;
+
     void shake();
 }

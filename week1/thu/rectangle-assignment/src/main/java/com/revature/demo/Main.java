@@ -26,16 +26,23 @@ public class Main {
             System.out.println(rectangles.get(i));
         }
 
+        AreaComparator area = new AreaComparator();
+        PerimeterComparator perimeter = new PerimeterComparator();
 
-        private static void findMax () {
+        Rectangle maxarea = findMax(rectangles , area);
+        Rectangle maxperimeter = findMax(rectangles , perimeter);
 
+        System.out.println("--------------");
+        System.out.println("Largest Area: ");
+        System.out.println(maxarea);
+        System.out.println("Largest Perimeter: ");
+        System.out.println(maxperimeter);
 
-        }
-/*        Rectangle r1 = new Rectangle("Rectangle 1", 10.0, 3.0);
-        System.out.println(r1);
+    }
+    private static Rectangle findMax(ArrayList<Rectangle> rectangles,  Comparator comparator) {
+        //Implement
+        return rectangles.get(0);
 
-        Rectangle r2 = new Rectangle("Rectanle 2", 5.0, 4.0);
-        System.out.println(r2);*/
 
     }
 }

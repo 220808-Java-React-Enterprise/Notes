@@ -1,6 +1,8 @@
 package com.revature.models;
 
 public class Rectangle {
+
+    // Attributes
     public String name;
     public int height;
     public int width;
@@ -11,17 +13,17 @@ public class Rectangle {
 
     }
 
-    public Rectangle(String name, int height, int width) {
-        this.name = name;
-        this.height = height;
-        this.width = width;
-
-    }
-
-    public Rectangle (int height, int width) {
-        this.height = height;
-        this.width = width;
-    }
+//    public Rectangle(String name, int height, int width) {
+//        this.name = name;
+//        this.height = height;
+//        this.width = width;
+//
+//    }
+//
+//    public Rectangle (int height, int width) {
+//        this.height = height;
+//        this.width = width;
+//    }
 
     // Returns the area of the rectangle
 

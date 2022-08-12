@@ -1,5 +1,5 @@
 package com.revature.inheritance;
 
-public interface RecComparator {
-    public boolean isLessThan(Rectangle rec1, Rectangle rec2);
+public interface RecComparator<T> {
+    public boolean isLessThan(T rec1, T rec2);
 }

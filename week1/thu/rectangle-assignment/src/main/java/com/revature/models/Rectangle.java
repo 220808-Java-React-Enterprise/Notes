@@ -13,18 +13,6 @@ public class Rectangle {
 
     }
 
-//    public Rectangle(String name, int height, int width) {
-//        this.name = name;
-//        this.height = height;
-//        this.width = width;
-//
-//    }
-//
-//    public Rectangle (int height, int width) {
-//        this.height = height;
-//        this.width = width;
-//    }
-
     // Returns the area of the rectangle
 
     public int getArea() {
@@ -73,4 +61,6 @@ public class Rectangle {
                 ", width=" + width +
                 '}';
     }
+
+
 }

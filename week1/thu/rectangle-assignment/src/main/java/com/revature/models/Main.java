@@ -43,6 +43,10 @@ public class Main {
             }
         }
 
+        for (int i = 0; i < rectangles.size(); i++) {
+
+        }
+
         // Iterates through the "rectangles" list and compares the perimeters of each Rectangle against the rectangle at the index before it
         // as well as against the current largest Rectangle (maxPerim)
         for (int i = 1; i < rectangles.size(); i++) {

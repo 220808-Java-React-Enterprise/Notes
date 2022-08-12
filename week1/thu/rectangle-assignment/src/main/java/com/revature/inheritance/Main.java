@@ -7,10 +7,16 @@ public class Main {
     public static void main(String[] args) {
         List<Rectangle> rectangles = new ArrayList<>();
 
+        // initialize 10 triangles
         initializeRectangles(rectangles);
+
+        // display 10 triangles attributes
         displayRectangles(rectangles);
 
+        // find the triangle with the largest area
         Rectangle maxArea = findMax(rectangles, new RectangleAreaComparator());
+
+        // find triangle with the largest perimeter
         Rectangle maxPerimeter = findMax(rectangles, new RectanglePerimeterComparator());
 
         System.out.println("\nRECTANGLE WITH LARGEST AREA");

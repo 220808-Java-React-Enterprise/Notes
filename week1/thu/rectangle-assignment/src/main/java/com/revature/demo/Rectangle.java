@@ -6,18 +6,14 @@ public class Rectangle  extends Object{
     private double length;
     private double width;
 
-
     public Rectangle(){
-
     }
 
     public Rectangle(String name, double length, double width) {
         this.name = name;
         this.length = length;
         this.width = width;
-
     }
-
 
     public String getName() {
         return name;

@@ -1,4 +1,6 @@
 package com.revature.demo;
 
-public class Perimeter {
+public class PerimeterComparator extends Object {
+
+
 }

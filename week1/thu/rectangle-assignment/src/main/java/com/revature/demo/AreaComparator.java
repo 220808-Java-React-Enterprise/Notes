@@ -13,6 +13,6 @@ public class AreaComparator extends Object{
 
         }else {return false;}
 
-    } 
+    }
 
 }

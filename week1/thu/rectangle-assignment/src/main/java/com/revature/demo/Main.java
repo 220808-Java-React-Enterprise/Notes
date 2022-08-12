@@ -35,8 +35,12 @@ public class Main {
         System.out.println("--------------");
         System.out.println("Largest Area: ");
         System.out.println(maxArea);
+        System.out.println("Area: ");
+        System.out.print(maxArea.getArea());
         System.out.println("Largest Perimeter: ");
         System.out.println(maxPerimeter);
+        System.out.println("Perimeter: ");
+        System.out.print(maxPerimeter.getPerimeter());
 
     }
     private static Rectangle findMax(ArrayList<Rectangle> rectangles,  Comparator comparator) {

@@ -13,6 +13,6 @@ public class Main {
         myCat.makeSound();
         myCat.love();
 
-        myDog.
+
     }
 }

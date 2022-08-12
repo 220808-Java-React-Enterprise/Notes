@@ -23,15 +23,21 @@ public class Rectangle {
         this.width = width;
     }
 
+    // Returns the area of the rectangle
+
     public int getArea() {
         int area = height * width;
         return area;
     }
 
+    // Returns the perimeter of the rectangle
+
     public int getPerimeter() {
         int perimeter = (2 * height) + (2 * width);
         return perimeter;
     }
+
+    // Getters and setters
 
     public String getName() {
         return name;

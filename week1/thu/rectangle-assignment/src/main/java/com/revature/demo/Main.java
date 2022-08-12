@@ -29,19 +29,29 @@ public class Main {
         AreaComparator area = new AreaComparator();
         PerimeterComparator perimeter = new PerimeterComparator();
 
-        Rectangle maxarea = findMax(rectangles , area);
-        Rectangle maxperimeter = findMax(rectangles , perimeter);
+        Rectangle maxArea = findMax(rectangles , area);
+        Rectangle maxPerimeter = findMax(rectangles , perimeter);
 
         System.out.println("--------------");
         System.out.println("Largest Area: ");
-        System.out.println(maxarea);
+        System.out.println(maxArea);
         System.out.println("Largest Perimeter: ");
-        System.out.println(maxperimeter);
+        System.out.println(maxPerimeter);
 
     }
     private static Rectangle findMax(ArrayList<Rectangle> rectangles,  Comparator comparator) {
         //Implement
-        return rectangles.get(0);
+
+        Rectangle max = rectangles.get(0);
+
+        for (int i = 0 ; i < rectangles.size(); i++ ){
+
+            if ( comparator.isLessThan(max, rectangles.get(i))) {
+                 max = rectangles.get(i);
+            }
+
+        }
+        return max;
 
 
     }

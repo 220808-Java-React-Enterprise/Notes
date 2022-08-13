@@ -1,4 +1,3 @@
-package java;
 
 public class AreaComparator implements Comparator {
     @Override

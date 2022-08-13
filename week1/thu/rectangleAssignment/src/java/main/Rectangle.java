@@ -1,4 +1,3 @@
-package java;
 
 public class Rectangle {
     private  String name;
@@ -40,7 +39,7 @@ public class Rectangle {
         return area;
     }
 
-    public int getPerimiter(){
+    public int getPerimeter(){
         int per = 2 * (length + width);
         return per;
     }

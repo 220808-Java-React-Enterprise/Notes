@@ -2,12 +2,17 @@ package com.revature.bio;
 
 /*
  * Fill in this Associate class skeleton
+<<<<<<< HEAD
  * Remember, all fields and methods needs to be private!
+=======
+ * Remember, all fields needs to be private!
+>>>>>>> cd0f6528074440f1e15d92f88fef8a12d67ab5f8
  */
 public class Associate {
     /*
      * Initialize fields: name, degree, POI (place of interest)
      */
+//<<<<<<< HEAD
     private String name;
     private String degree;
     private String POI;
@@ -72,4 +77,5 @@ public class Associate {
                 "He tries to eat other dogs so I have to be careful, but he's amazing with my little nieces and nephews, \n" +
                 "climb all over him and he is so patient and sweet.  I couldn't ask for a better dog";
     }
+
 }

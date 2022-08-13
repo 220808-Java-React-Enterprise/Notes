@@ -8,9 +8,9 @@ This is the training repository for the Java Enterprise/React cohort starting Au
 ---
 
 ## Weekly Expectations:
-* Training starts everyday at 10:00AM EST and ends at 6:00PM EST
+* Training starts everyday at 10:00 AM EST and ends at 6:00 PM EST
     - You are expected to be on time each day
-* Lunch breaks happen everyday at 1:00PM EST to 2:00PM EST
+* Lunch breaks happen everyday at 1:00 PM EST to 2:00 PM EST
 
 ### Evaluations
 

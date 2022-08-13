@@ -1,5 +1,7 @@
 package com.revature.rectangle.models;
 
+import java.util.List;
+
 public class Rectangle extends Shape{
 
     private String name;
@@ -46,7 +48,24 @@ public class Rectangle extends Shape{
 
     @Override
     public int getPerimeter() {
-         return ((2* this.length) + (2*this.width));
+         return (2*( this.length) + (2*this.width));
+    }
+
+    public Rectangle findMaxArea(List<Rectangle> listRectangle, CompareArea c){
+        Rectangle rectangleMaxArea = new Rectangle();
+        for (Rectangle r : listRectangle){
+            if(c.isLessThan(rectangleMaxArea, r)) rectangleMaxArea = r;
+
+        }
+        return rectangleMaxArea;
+    }
+
+    public Rectangle findMaxPerimeter(List<Rectangle> listRectangle, ComparePerimeter c){
+        Rectangle rectangleMaxPerimeter = new Rectangle();
+        for (Rectangle r : listRectangle){
+            if(c.isLessThan(rectangleMaxPerimeter, r)) rectangleMaxPerimeter = r;
+        }
+        return rectangleMaxPerimeter;
     }
 
     @Override

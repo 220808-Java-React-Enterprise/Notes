@@ -25,8 +25,28 @@
 ### Homework
 
 - Install **Maven**
-- What is a **database**?
-- What is **PostgresSQL**?
-- Why do we want to use **PostgreSQL**?
-- What is a **schema**?
-- What is a **primary key**?
+- Install **Docker**
+- Install **DBeaver**
+
+
+- **Docker**:
+  - What is Docker?
+  - What is an image?
+  - What is a container?
+  - Why do we use Docker?
+  - Pros/cons of Docker?
+
+
+- **PostgreSQL**:
+  - What is a database?
+  - What is PostgresSQL?
+  - Why do we want to use PostgreSQL?
+  - What is a schema?
+  - What is a primary key?
+
+
+- (Something to think about) **Maven:**
+  - What is Maven?
+  - What is a dependency manager?
+  - Why are we using Maven?
+  - Pros/cons of Maven?

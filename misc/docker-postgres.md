@@ -17,6 +17,11 @@
 
 **Example:** ```docker run --name local-db -p 5432:5432 -e POSTGRES_PASSWORD=revature -d postgres```
 
+- ```--name: give container a name```
+- ```-p: port of container```
+- ```-e: set env variable```
+- ```-d: detach from container```
+
 ---
 
 ## How To Start Container
@@ -32,6 +37,14 @@
 - docker stop [OPTIONS] CONTAINER [CONTAINER...]
 
 Example: ```docker stop my_container```
+
+---
+
+## Remove Docker Container
+
+- docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+**Example:** ```docker rm my_container```
 
 ---
 

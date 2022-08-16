@@ -50,3 +50,35 @@
   - What is a dependency manager?
   - Why are we using Maven?
   - Pros/cons of Maven?
+
+---
+
+## Tuesday
+
+- 10:05 AM ET
+  - Hackerrank
+
+
+- 11:05 PM ET
+  - Go over Hackerrank
+
+
+- 11:30 pm ET
+  - Go over homework
+
+
+- 12:00 PM ET
+  - **Lecture**:
+    - **P0 demo**:
+      - Integrating a database to our P0
+
+
+- 1:00 PM ET
+  - Lunch
+
+
+- 2:30+ PM ET
+  - Work on P0
+
+### Homework
+- TBD

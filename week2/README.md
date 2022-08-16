@@ -82,4 +82,14 @@
   - 1 on 1
 
 ### Homework
-- TBD
+- ERD must be in 3NF for P0
+- Create tables with Pk -> FK correctly in DBeaver
+
+
+- **PostgresSQL**:
+  - One to one
+  - One to many
+  - Many to one
+  - Many to many:
+    - Junction table?
+    - Composite key?

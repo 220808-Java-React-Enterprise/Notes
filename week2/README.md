@@ -79,6 +79,7 @@
 
 - 2:30+ PM ET
   - Work on P0
+  - 1 on 1
 
 ### Homework
 - TBD

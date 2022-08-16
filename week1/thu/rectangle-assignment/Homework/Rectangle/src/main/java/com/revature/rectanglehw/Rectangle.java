@@ -8,8 +8,6 @@ public class Rectangle {
     /*
     Constructor including setter constructors
     */
-    public Rectangle() {
-    }
 
     public Rectangle(String name, int length, int width) {
         this.name = name;
@@ -45,13 +43,13 @@ public class Rectangle {
         this.width = width;
     }
     /*
-    Get's object area.
+    Gets object's area.
      */
     public int getArea(){
         return this.length * this.width;
     }
     /*
-    Get's objects perimeter.
+    Gets object's perimeter.
      */
     public int getPerimeter(){
         return (2*this.length) + (2*this.width);

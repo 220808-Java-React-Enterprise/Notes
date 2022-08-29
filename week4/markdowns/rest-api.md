@@ -87,4 +87,4 @@ designates a truly RESTful API.
 
 <br>
 
-<img style="width:70%" src="https://media-exp1.licdn.com/dms/image/C5112AQEbd9Ob63-iHA/article-inline_image-shrink_1500_2232/0/1541014242876?e=1659571200&v=beta&t=jpxSXnUNPmh9jaiHv_B6vU3gXW7AwywKc1egxbyRPJY">
+<img style="width:70%" src="https://restfulapi.net/wp-content/uploads/Richardson-Maturity-Model.jpg">

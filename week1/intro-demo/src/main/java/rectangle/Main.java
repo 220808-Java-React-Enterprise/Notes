@@ -6,7 +6,6 @@ import java.util.List;
 public class Main {
 
     //findMax method
-
     Rectangle findMax(Comparator c, List<Rectangle> recList) {
         Rectangle max = recList.get(0);
         for (Rectangle reg : recList) {

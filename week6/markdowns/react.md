@@ -23,3 +23,6 @@
 - Add routing to our REACT project
   - `npm i react-router-dom`
 
+- Add axios to our REACT project
+  - `npm i react-axios`
+
